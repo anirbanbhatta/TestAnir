@@ -28,7 +28,7 @@ public class SimpleServlet extends HttpServlet {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		Date date = new Date();
 
-        response.getWriter().print("Hello Dear! " + dateFormat.format(date));
+        response.getWriter().print("Hello Dear New User! " + dateFormat.format(date));
     }
 
 }
